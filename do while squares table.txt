@@ -1,4 +1,4 @@
-//while
+//using do while to make a table of numbers and their squares
 #include<stdio.h>
 int main(){
     int i=1;
