@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int mult=1;
+    int n;
+    int i;
+    printf("enter the limit:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        mult=mult*i;
+    }
+    printf("%d",mult);
+    return 0;
+}
