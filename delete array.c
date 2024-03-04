@@ -28,7 +28,7 @@ int main(){
         arr[i]=arr[i+1];
     }
     n=n-1;
-    printf("enter the elements after deletion:\n");
+    printf("the elements after deletion:\n");
     for(i=0;i<n;i++)
     {
         printf("%d ",arr[i]);
